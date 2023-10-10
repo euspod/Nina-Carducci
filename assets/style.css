@@ -33,8 +33,11 @@ body {
 	padding-inline: 10px;
 }
 
-.nav a {
+.nav a, a {
 	text-decoration: none;
+	color: #000
+}
+a:hover {
 	color: #000
 }
 
@@ -147,6 +150,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 30px;
 
 }
 .quote__author {
