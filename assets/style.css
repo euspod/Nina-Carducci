@@ -43,6 +43,7 @@ a:hover {
 
 .social-link img {
 	width: 20px;
+	height: auto;
 }
 
 #about {
@@ -72,6 +73,7 @@ a:hover {
 
 .picture img {
 	width: 100%;
+	height: auto;
 
 }
 #about-me {
@@ -105,7 +107,7 @@ a:hover {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #525224;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -249,6 +251,7 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 1180px) {
+	
 	.picture {
 		flex : 2;
 	}
@@ -262,6 +265,24 @@ input[type="submit"] {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	.gallery-item[data-gallery-tag="Concert"] {
+		background-image: url('./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Entreprise"] {
+		background-image: url('./assets/images/gallery/entreprise/jason-goodman-tho1_oukbg0-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Entreprise"] {
+		background-image: url('./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Mariages"] {
+		background-image: url('./assets/images/gallery/mariage/hannah-busing-rvf2r_qmprk-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Mariages"] {
+		background-image: url('./assets/images/gallery/mariage/jakob-owens-siniljkxhmc-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Portraits"] {
+		background-image: url('./assets/images/gallery/portraits/nino-van-prattenburg--443cl1ur_8-unsplash-medium.avif');
+	  }
 }
 
 @media all and (max-width: 1000px) {
@@ -321,6 +342,24 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	.gallery-item[data-gallery-tag="Concert"] {
+		background-image: url('./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Entreprise"] {
+		background-image: url('./assets/images/gallery/entreprise/jason-goodman-tho1_oukbg0-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Entreprise"] {
+		background-image: url('./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Mariages"] {
+		background-image: url('./assets/images/gallery/mariage/hannah-busing-rvf2r_qmprk-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Mariages"] {
+		background-image: url('./assets/images/gallery/mariage/jakob-owens-siniljkxhmc-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Portraits"] {
+		background-image: url('./assets/images/gallery/portraits/nino-van-prattenburg--443cl1ur_8-unsplash-medium.avif');
+	  }
 }
 
 @media all and (max-width: 650px) {
@@ -338,6 +377,7 @@ input[type="submit"] {
 		text-align: center;
 	}
 	.picture.left::before, .picture.right::before {
+		width:100%;
 		height: 150px;
 	}
 	#services .container {
@@ -355,6 +395,25 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+		height: auto;
 	}
+	.gallery-item[data-gallery-tag="Concert"] {
+		background-image: url('./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Entreprise"] {
+		background-image: url('./assets/images/gallery/entreprise/jason-goodman-tho1_oukbg0-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Entreprise"] {
+		background-image: url('./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Mariages"] {
+		background-image: url('./assets/images/gallery/mariage/hannah-busing-rvf2r_qmprk-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Mariages"] {
+		background-image: url('./assets/images/gallery/mariage/jakob-owens-siniljkxhmc-unsplash-medium.avif');
+	  }
+	  .gallery-item[data-gallery-tag="Portraits"] {
+		background-image: url('./assets/images/gallery/portraits/nino-van-prattenburg--443cl1ur_8-unsplash-medium.avif');
+	  }
 }
 
