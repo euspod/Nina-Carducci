@@ -54,7 +54,7 @@
 	<!--Instagram -->
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -99,7 +99,7 @@
 			<li><a href="#gallery" tabindex="2">Galerie</a></li>
 			<li><a href="#services" tabindex="3">Service</a></li>
 			<li><a href="#contact" tabindex="4">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" tabindex="5" target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" tabindex="5" target="_blank"><img width="20" height="20" src="assets/images/instagram.png" alt="logo instagram"></a></li>
 		</ul>
 	</nav>
 </header>
@@ -135,7 +135,8 @@
 <main>
 	<article id="about">
 		<div class="picture left">
-			<img src="./assets/images/nina.avif" alt="Portrait de la photographe Nina Carducci">
+			<img width="500"
+					height="500"src="./assets/images/nina.avif" alt="Portrait de la photographe Nina Carducci">
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
@@ -218,13 +219,13 @@
 				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures</p>
 				<form action="traitement.php" method="post">
-					<label>Nom 
+					<label for="nom">Nom 
 						<input type="text" name="nom" id="nom" autocomplete="off">
 					</label>
-					<label>Email 
+					<label for="email">Email 
 						<input type="email" name="email" id="email" autocomplete="off">
 					</label>
-					<label>Message 
+					<label for="message">Message 
 						<textarea name="message" id="message" cols="30" rows="10" autocomplete="off">
 						</textarea>
 					</label>
@@ -232,7 +233,7 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/camera.avif" alt="Gros plan d'un appareil photo retro traditionnel Leica." >
+				<img width="420" height="420" src="./assets/images/camera.avif" alt="Gros plan d'un appareil photo retro traditionnel Leica." >
 			</div>
 		</div>
 	</article>
