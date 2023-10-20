@@ -6937,6 +6937,7 @@ textarea.form-control-lg {
 
 .w-auto {
   width: auto !important;
+  text-align: center;
 }
 
 .mw-100 {
