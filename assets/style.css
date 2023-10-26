@@ -108,6 +108,7 @@ a:hover {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
+	font-size: 16px !important;
 	width: 60%;
 }
 
